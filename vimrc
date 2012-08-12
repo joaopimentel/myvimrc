@@ -17,6 +17,11 @@ set expandtab
 
 set laststatus=2
 
+" Mapping to NERDTree
+nnoremap <C-n> :NERDTreeToggle<cr>
+" close NERDTree on open
+let NERDTreeQuitOnOpen = 1
+
 " line numbers
 set nu
 

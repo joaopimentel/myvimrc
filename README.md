@@ -8,6 +8,7 @@ Packages needed to install
 
 - *exuberant-ctags*: omni completion, etc
 - *pyflakes*: python sintax analysis for syntastic
+- *flake8*: pip's package for PEP8 syntax analysis with syntastic
 
 Vim plugins used
 ----------------
