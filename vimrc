@@ -59,6 +59,10 @@ nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
+" text scroll with Ctrl+direction
+noremap <C-Up> <C-Y>
+noremap <C-Down> <C-E>
+
 "window swapping:
 " \mw -> mark window to swap
 " \pw -> paste window (swap with present window)
