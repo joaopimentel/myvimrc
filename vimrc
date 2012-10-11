@@ -1,4 +1,4 @@
-colorscheme blackboard
+colorscheme candycode
 
 call pathogen#infect()
 filetype plugin indent on
@@ -29,7 +29,7 @@ nnoremap <C-n> :NERDTreeToggle<cr>
 let NERDTreeQuitOnOpen = 1
 
 " TagList options
-let Tlist_Close_On_Select = 1 "close taglist window once we selected something
+let Tlist_Close_On_Select = 0 "close taglist window once we selected something
 let Tlist_Exit_OnlyWindow = 1 "if taglist window is the only window left, exit vim
 let Tlist_Show_Menu = 1 "show Tags menu in gvim
 let Tlist_Show_One_File = 1 "show tags of only one file
@@ -39,7 +39,7 @@ let Tlist_Process_File_Always = 1 "even without taglist window, create tags file
 let Tlist_Use_Right_Window = 1 "display taglist window on the right
 "let Tlist_Ctags_Cmd = /path/to/exuberant/ctags
 
-nnoremap <F5> :TlistToggle<cr>
+nnoremap <A-n> :TlistToggle<cr>
 nnoremap <F6> :TlistShowPrototype<cr>
 
 " line numbers
@@ -108,7 +108,7 @@ set tags+=~/.vim/tags/cpp
 "set tags+=~/.vim/tags/sdl
 "set tags+=~/.vim/tags/qt4
 " build tags of your own project with Ctrl-F12
-map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
 
 " OmniCppComplete
 let OmniCpp_NamespaceSearch = 1
