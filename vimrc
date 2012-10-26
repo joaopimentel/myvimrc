@@ -123,3 +123,5 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
 
+" Open python file with all folds open (using http://www.vim.org/scripts/script.php?script_id=2462)
+autocmd Syntax python normal zR
