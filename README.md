@@ -8,7 +8,7 @@ Some shortcuts defined
 - &lt;Leader&gt;mw: mark window
 - &lt;Leader&gt;pw: paste window - swap current window with previously marked window
 - Ctrl+n: NERDTree
-- F5: Taglist
+- Alt+m: Taglist
 - Alt+direction: Move cursor across windows
 - &lt;Leader&gt;c\<Space\>: Toggle comment block
 
