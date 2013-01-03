@@ -11,6 +11,7 @@ Some shortcuts defined
 - Alt+m: Taglist
 - Alt+direction: Move cursor across windows
 - &lt;Leader&gt;c\<Space\>: Toggle comment block
+- Ctrl+Backspace and Ctrl+Delete on insert mode: delete whole word backwards or forward
 
 
 Packages needed to install

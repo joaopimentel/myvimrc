@@ -125,3 +125,8 @@ set completeopt=menuone,menu,longest,preview
 
 " Open python file with all folds open (using http://www.vim.org/scripts/script.php?script_id=2462)
 autocmd Syntax python normal zR
+
+" Ctrl+Del to delete whole word on insert mode
+:imap <C-Del> <C-O>dw
+" Ctrl+Backspace to delete whole word back on insert mode
+:imap <C-BS> <C-O>db
