@@ -129,4 +129,4 @@ autocmd Syntax python normal zR
 " Ctrl+Del to delete whole word on insert mode
 :imap <C-Del> <C-O>dw
 " Ctrl+Backspace to delete whole word back on insert mode
-:imap <C-BS> <C-O>db
+:imap <C-BS> <C-O>db<C-O>x
