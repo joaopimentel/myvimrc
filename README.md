@@ -34,6 +34,7 @@ Vim plugins used
 - syntax/django.vim
 - syntax/htmldjango.vim
 - syntax/cpp.vim (http://www.vim.org/scripts/script.php?script_id=1640)
+- ragtag: ctrl+x Enter to create and close tag (http://www.vim.org/scripts/script.php?script_id=1896)
 
 
 
