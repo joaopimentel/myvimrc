@@ -1,7 +1,7 @@
 myvimrc
 =======
 
-My .vimrc file, and list of dependencies/good to have plugins
+My .vimrc file and .vim directory, and list of dependencies/good to have plugins
 
 Some shortcuts defined
 ----------------------
@@ -27,14 +27,18 @@ Vim plugins used
 - NERD\_commenter.vim
 - NERD\_tree.vim
 - taglist.vim
-- pathogen.vim: to install syntastic as recommended
+- pathogen.vim
 - pythoncomplete.vim
+- rainbow\_parentheses
+- ragtag: ctrl+x Enter to create and close tag (http://www.vim.org/scripts/script.php?script_id=1896)
 - OmniCppComplete (http://vim.wikia.com/wiki/VimTip1608)
 - modified libstdc++ headers (http://vim.wikia.com/wiki/VimTip1608)
 - syntax/django.vim
 - syntax/htmldjango.vim
 - syntax/cpp.vim (http://www.vim.org/scripts/script.php?script_id=1640)
-- ragtag: ctrl+x Enter to create and close tag (http://www.vim.org/scripts/script.php?script_id=1896)
+- vim-clojure-static
+- vim-classpath
+- vim-foreplay
 
 
 
