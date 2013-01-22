@@ -21,6 +21,10 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Two space tabs for html / htmldjango
+autocmd FileType html :setlocal sw=2 ts=2 sts=2
+autocmd FileType htmldjango :setlocal sw=2 ts=2 sts=2
+
 set laststatus=2
 
 " Mapping to NERDTree
