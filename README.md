@@ -31,12 +31,12 @@ Vim plugins used
 - pathogen.vim
 - pythoncomplete.vim
 - rainbow\_parentheses
-- ragtag: ctrl+x Enter to create and close tag (http://www.vim.org/scripts/script.php?script_id=1896)
-- OmniCppComplete (http://vim.wikia.com/wiki/VimTip1608)
-- modified libstdc++ headers (http://vim.wikia.com/wiki/VimTip1608)
+- [ragtag](http://www.vim.org/scripts/script.php?script_id=1896): ctrl+x Enter to create and close tag 
+- [OmniCppComplete](http://vim.wikia.com/wiki/VimTip1608)
+- [modified libstdc++ headers](http://vim.wikia.com/wiki/VimTip1608)
 - syntax/django.vim
 - syntax/htmldjango.vim
-- syntax/cpp.vim (http://www.vim.org/scripts/script.php?script_id=1640)
+- [syntax/cpp.vim](http://www.vim.org/scripts/script.php?script_id=1640)
 - vim-clojure-static
 - vim-classpath
 - vim-foreplay
