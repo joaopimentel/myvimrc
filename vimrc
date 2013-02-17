@@ -136,3 +136,12 @@ autocmd Syntax python normal zR
 :imap <C-BS> <C-O>db
 
 au VimEnter * RainbowParenthesesToggle
+
+
+" Sets up omni-completion for a django project in a virtualenv.
+" From: http://felixhummel.github.com/blag/vim/django_completion.html
+if filereadable($VIRTUAL_ENV . '/.vimrc')
+    source $VIRTUAL_ENV/.vimrc
+endif
+" Don't pop autocompletion on dot
+let g:jedi#popup_on_dot = 0
