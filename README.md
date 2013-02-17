@@ -24,6 +24,7 @@ Packages needed to install
 Vim plugins used
 ----------------
 - autoclose.vim
+- [jedi-vim](https://github.com/davidhalter/jedi-vim)
 - NERD\_commenter.vim
 - NERD\_tree.vim
 - taglist.vim
