@@ -8,7 +8,7 @@ Some shortcuts defined
 - &lt;Leader&gt;mw: mark window
 - &lt;Leader&gt;pw: paste window - swap current window with previously marked window
 - Ctrl+n: NERDTree
-- Alt+m: Taglist
+- Alt+n: Taglist
 - Alt+direction: Move cursor across windows
 - &lt;Leader&gt;c\<Space\>: Toggle comment block
 - Ctrl+Backspace and Ctrl+Delete on insert mode: delete whole word backwards or forward
